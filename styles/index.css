@@ -41,12 +41,13 @@ padding: 20px 24px;
 border: none;
 border-radius: 8px;
 }
-main{
+main, footer{
     max-width: 1440px;
     margin: 0 auto;
 }
 main > section{
     margin-top: 130px;
+    margin-bottom: 100px;
 }
 .section-title{
     font-size: 2.8rem;
@@ -181,7 +182,12 @@ margin-right: 30px;
 .sponsors-companies img{
     filter: grayscale(100%);
 }
-
+/* footer */
+.footer{
+    padding: 40px;
+    text-align: center;
+    border-radius: 8px;
+}
 /* responsive medive query */
 /* small device */
 @media screen and (max-width:576px){
